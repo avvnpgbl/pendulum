@@ -18,6 +18,7 @@ void MainWindow::on_StartSimulationButton_clicked()
     ui->label->setText("Симуляция запущена");
     stop_flag=false;
     start_flag=true;
+    ui->textEdit->append("Hello World!\n ");
 }
 
 void MainWindow::on_StopSimulationButton_clicked()
